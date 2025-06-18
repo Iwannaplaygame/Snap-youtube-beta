@@ -6,9 +6,6 @@
 This is just a tool with basic code that works available on py
 Before using it, you should install the ffmpeg library in the path to be able to download video
 
-Cách dùng: Vào cmd hoặc vscode sau đó chạy snap.py
-
-
 
 
 
