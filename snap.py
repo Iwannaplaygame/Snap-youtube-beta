@@ -3,8 +3,6 @@ import tkinter as tk
 from tkinter import ttk, messagebox
 from yt_dlp import YoutubeDL
 
-ffmpeg_path = r"C:\ffmpeg-2025-06-08-git-5fea5e3e11-full_build\bin\ffmpeg.exe"
-USE_COOKIES = os.path.exists("cookies.txt")
 
 def download():
     url = url_entry.get().strip()
@@ -78,3 +76,4 @@ status_label = tk.Label(root, text="", fg="blue")
 status_label.pack()
 
 root.mainloop()
+
